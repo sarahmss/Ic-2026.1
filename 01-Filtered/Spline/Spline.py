@@ -9,6 +9,8 @@ TS = 0.07
 os.chdir("./01-Filtered")
 #(k, s)
 parametros_spline = {
+    "WdRef": (3, 0.125),
+    "WeRef": (3, 0.125),
     "Wd": (3, 0.125),
     "We": (3, 0.125),
     "PwmD": (3, 0.025),
